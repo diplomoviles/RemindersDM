@@ -47,7 +47,7 @@ class AlarmReceiver : BroadcastReceiver() {
         val builder =NotificationCompat.Builder(context, context.getString(R.string.default_notification_channel_id))
             .setSmallIcon(R.drawable.ic_alarm)
             .setContentTitle("¡Recordatorio urgente!")
-            .setContentText("Tienes una tarea pendiente a revisar")
+            .setContentText("Tienes una tarea pendiente a revisar - Amaury")
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setContentIntent(pendingIntent)
             .setAutoCancel(true) //Para se cancele al hacer click

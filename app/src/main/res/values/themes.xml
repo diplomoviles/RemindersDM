@@ -3,6 +3,8 @@
     <style name="Base.Theme.RemindersDM" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#E34332</item>
+        <item name="colorPrimaryVariant">#E34332</item>
     </style>
 
     <style name="Theme.RemindersDM" parent="Base.Theme.RemindersDM" />
